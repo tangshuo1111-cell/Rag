@@ -1,0 +1,20 @@
+version: "3.9"
+
+services:
+  web:
+    build: .
+    container_name: fastapi-chinese-demo
+    env_file:
+      - .env
+    environment:
+      TRANSFORMERS_CACHE: /data/hf
+      HF_HOME: /data/hf
+      TOKENIZERS_PARALLELISM: "false"
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./data/hf:/data/hf
+      - ./data/chroma:/data/chroma
+      - ./data/sqlite:/data/sqlite
+    restart: unless-stopped
+
