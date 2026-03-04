@@ -114,19 +114,8 @@ SIMILARITY_THRESHOLD
 
 用于系统调试与审计。
 
-app
- ├─ api
- │   └─ routes.py
- ├─ core
- │   └─ config.py
- ├─ db
- │   └─ session.py
- ├─ models
- │   └─ __init__.py
- ├─ services
- │   ├─ retrieval.py
- │   └─ llm.py
- └─ main.py
+
+运行项目
 
 
 pip install -r requirements.txt
