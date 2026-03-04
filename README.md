@@ -69,7 +69,7 @@ chunk_overlap = 120
 
 ---
 
-4 LLM 问答
+4 LLM 大模型问答
 
 
 调用 DeepSeek Chat API：
@@ -147,14 +147,7 @@ ghcr.io/tangshuo1111-cell/rag
 
 项目开发过程中使用 Cursor 进行 AI 辅助编程，用于生成基础代码结构。
 
-在工程实现过程中通过人工调试学习解决了多个问题，包括：
-- SQLite 数据库路径问题
-- SQLAlchemy ORM 映射问题
-- FastAPI 请求体结构错误
-- Docker 构建与网络问题
-- DeepSeek API 鉴权问题
 
-最终完成了可运行的 RAG API 服务与 Docker 镜像发布流程。
 GitHub
 
 
