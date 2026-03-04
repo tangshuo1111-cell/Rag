@@ -14,19 +14,14 @@ RAG
 
 系统通过检索相关文档片段并结合大模型生成回答，实现更加准确的企业知识问答。
 
-FastAPI
-SQLAlchemy
-SQLite
-TF-IDF Retrieval
-DeepSeek API
-Docker
-GitHub Container Registry
+
+FastAPI SQLAlchemy SQLite TF-IDF Retrieval DeepSeek API Docker GitHub Container Registry
 
 
 
 
 
-用户提问│FastAPI API 接口│TF-IDF 检索 TopK 文本片段│拼接上下文 Context│DeepSeek LLM 生成回答│返回回答 + 引用片段
+用户提问 FastAPI API 接口 TF-IDF 检索 TopK 文本片段 拼接上下文 Context DeepSeek LLM 生成回答 返回回答 + 引用片段
 
 
 
