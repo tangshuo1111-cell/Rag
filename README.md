@@ -24,19 +24,19 @@ GitHub Container Registry
 
 用户提问
    │
-   ▼
+   
 FastAPI API 接口
    │
-   ▼
+   
 TF-IDF 检索 TopK 文本片段
    │
-   ▼
+   
 拼接上下文 Context
    │
-   ▼
+   
 DeepSeek LLM 生成回答
    │
-   ▼
+   
 返回回答 + 引用片段
 
 
